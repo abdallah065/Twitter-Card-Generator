@@ -13,8 +13,9 @@ document
         const cardData = { title, description, image_url, url };
 
         // preview card
-        document.getElementById("previewContainer").style.display = "visible";
+        document.getElementById("previewContainer").style.visibility = "visible";
         document.getElementById("previewLink").href = url;
+        document.getElementById("previewImage").style.width = document.getElementById("mainContainer").style.width
         document.getElementById("previewImage").src = image_url;
 
 
