@@ -14,10 +14,10 @@ document
 
         // preview card
         document.getElementById("previewLink").href = url;
-        document.getElementById("previewImage").style.width = document.getElementById("mainContainer").style.width
+        document.getElementById("previewImage").style.width
         document.getElementById("previewImage").src = image_url;
         document.getElementById("previewContainer").style.display = "block";
-        
+        document.getElementById("body").style.height = document.getElementById("body").style.height + document.getElementById("previewContainer").style.height;
 
 
         // Send data to the server
