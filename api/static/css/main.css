@@ -87,5 +87,13 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    visibility: hidden;
+    display: none;
+}
+
+
+/* inherit the width of .container */
+.previewImage {
+    max-width: inherit;
+    max-height: 300px;
+    margin-top: 20px;
 }
