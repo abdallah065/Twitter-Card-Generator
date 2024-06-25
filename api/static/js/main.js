@@ -17,8 +17,6 @@ document
         document.getElementById("previewImage").style.width
         document.getElementById("previewImage").src = image_url;
         document.getElementById("previewContainer").style.display = "block";
-        document.getElementById("body").style.height = document.getElementById("body").style.height + document.getElementById("previewContainer").style.height;
-
 
         // Send data to the server
         fetch("/create-card", {
