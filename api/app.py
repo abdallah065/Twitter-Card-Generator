@@ -87,4 +87,5 @@ def view_card(card_id):
 
 
 if __name__ == "__main__":
+    # Note: Do not use debug=True in production
     app.run(debug=True)
