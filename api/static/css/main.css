@@ -89,11 +89,3 @@ body {
     text-align: center;
     display: none;
 }
-
-
-/* inherit the width of .container */
-.previewImage {
-    max-width: inherit;
-    max-height: 300px;
-    margin-top: 20px;
-}
