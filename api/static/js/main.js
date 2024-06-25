@@ -17,6 +17,7 @@ document
         document.getElementById("previewImage").style.width = document.getElementById("mainContainer").style.width
         document.getElementById("previewImage").src = image_url;
         document.getElementById("previewContainer").style.display = "block";
+        
 
 
         // Send data to the server
